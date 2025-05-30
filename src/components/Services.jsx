@@ -38,10 +38,10 @@ const ServiceCard = ({ title, description }) => {
       <p className="text-gray font-subtitle text-sm md:text-base mb-4 leading-relaxed flex-grow">
         {description}
       </p>
-      <button className="mt-auto text-primary font-subtitle flex items-center space-x-2 group">
+      {/* <button className="mt-auto text-primary font-subtitle flex items-center space-x-2 group">
         <span>Read More</span>
         <ArrowIcon />
-      </button>
+      </button> */}
     </div>
   );
 };
@@ -49,29 +49,27 @@ const ServiceCard = ({ title, description }) => {
 const Services = () => {
   const servicesData = [
     {
-      title: "Website Design",
+      title: "Corporate Finance & Advisory",
       description:
-        "A wonderful serenity has taken possession of my entire soul, like these sweet mornings.",
+        "Strategic finance planning and project financing to ensure sustainable growth.",
     },
     {
-      title: "Mobile App Design",
+      title: "MSME Loans",
       description:
-        "A wonderful serenity has taken possession of my entire soul, like these sweet mornings.",
+        "Access to loans with minimal hassle, tailored to your needs.",
     },
     {
-      title: "Brand Identity",
-      description:
-        "A wonderful serenity has taken possession of my entire soul, like these sweet mornings.",
+      title: "Startup Funding & Angel Investment",
+      description: "Helping startups secure funding and scale effectively.",
     },
     {
-      title: "Market Analysis",
-      description:
-        "A wonderful serenity has taken possession of my entire soul, like these sweet mornings.",
+      title: "Tax Advisory & Financial Structuring",
+      description: "Optimize your taxes and financial setup for efficiency.",
     },
   ];
 
   return (
-    <section id="service" className="py-16 md:py-24 bg-black">
+    <section id="service" className="py-16 md:py-24 bg-opacity-5 bg-white">
       {" "}
       {/* Changed id to "service" to match nav */}
       <div className="container mx-auto px-4 text-center">

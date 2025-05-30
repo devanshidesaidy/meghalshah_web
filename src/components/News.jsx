@@ -48,10 +48,10 @@ const News = () => {
     },
     {
       imgSrc: null, // Replace with actual image path
-      tag: "FASION", // Corrected from image, assuming "FASHION"
-      date: "22 Dec.2023", // Corrected from image
+      tag: "FASHION",
+      date: "22 Dec.2023",
       author: "Aliza",
-      title: "Master These Awesome New Skills in May 2023", // Title from image
+      title: "Master These Awesome New Skills in May 2023",
       description:
         "Consectetur adipiscing elit. Purusout phasellus malesuada lectus.",
     },

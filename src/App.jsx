@@ -1,33 +1,27 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Services from "./components/Services";
-import Projects from "./components/Projects";
-import Testimonials from "./components/Testimonials";
-import News from "./components/News";
-import Pricing from "./components/Pricing";
-import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import HomePage from "./pages/Home";
+import AboutPage from "./pages/About";
+import Contact from "./components/Contact";
+import MSACAPage from "./pages/business/MSACA";
+import CredorbitPage from "./pages/business/Credorbit";
 
 function App() {
   return (
-    <div className="font-default bg-black text-white min-h-screen">
-      <Header />
-
-      {/* Main Content */}
-      <main>
-        <Hero />
-        <About />
-        <Services />
-        <Projects />
-        <Testimonials />
-        <News />
-        <Pricing />
-        <Contact />
-      </main>
-
-      <Footer />
-    </div>
+    <Router>
+      <div className="font-default bg-black text-white min-h-screen">
+        <Header />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/business/msaca" element={<MSACAPage />} />
+          <Route path="/business/credorbit" element={<CredorbitPage />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
