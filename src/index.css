@@ -1,117 +1,33 @@
-@import "tailwindcss";
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
 
-@font-face {
-  font-family: "JosefinSans-Light";
-  src: url("./assets/fonts/JosefinSans-Light.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "JosefinSans-Regular";
-  src: url("./assets/fonts/JosefinSans-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "JosefinSans-Medium";
-  src: url("./assets/fonts/JosefinSans-Medium.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "JosefinSans-SemiBold";
-  src: url("./assets/fonts/JosefinSans-SemiBold.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "JosefinSans-Bold";
-  src: url("./assets/fonts/JosefinSans-Bold.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "MiriamLibre-Regular";
-  src: url("./assets/fonts/MiriamLibre-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "MiriamLibre-Medium";
-  src: url("./assets/fonts/MiriamLibre-Medium.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "MiriamLibre-SemiBold";
-  src: url("./assets/fonts/MiriamLibre-SemiBold.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "MiriamLibre-Bold";
-  src: url("./assets/fonts/MiriamLibre-Bold.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Palanquin-Light";
-  src: url("./assets/fonts/Palanquin-Light.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Palanquin-Regular";
-  src: url("./assets/fonts/Palanquin-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Palanquin-Medium";
-  src: url("./assets/fonts/Palanquin-Medium.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Palanquin-SemiBold";
-  src: url("./assets/fonts/Palanquin-SemiBold.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Palanquin-Bold";
-  src: url("./assets/fonts/Palanquin-Bold.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@theme {
-  --color-primary: #6c86e5;
-  --color-black: #2b2a2a;
-  --color-gray: #d3d3d3;
-  --color-white: #ffffff;
-
-  --font-title: "JosefinSans-Regular";
-  --font-subtitle: "Palanquin-Regular";
-  --default-font-family: "MiriamLibre-Regular";
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-:root {
-  display: flex;
-  justify-content: center;
-  max-width: 100%;
-  width: 100vw;
-  overflow-x: hidden;
-
-  scroll-behavior: smooth;
-  ::-webkit-scrollbar {
-    width: 0;
+@layer base {
+  @font-face {
+    font-family: "JosefinSans-Regular";
+    src: url("./assets/fonts/JosefinSans-Regular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Palanquin-Regular";
+    src: url("./assets/fonts/Palanquin-Regular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "MiriamLibre-Regular";
+    src: url("./assets/fonts/MiriamLibre-Regular.ttf") format("truetype");
+  }
+  body {
+    font-family: "MiriamLibre-Regular", sans-serif;
+    background-color: theme("colors.black");
+    color: theme("colors.white");
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: theme("fontFamily.title");
+  }
+  p {
+    font-family: theme("fontFamily.subtitle");
   }
 }

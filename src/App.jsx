@@ -1,23 +1,33 @@
-import "./App.css";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Services from "./components/Services";
+import Projects from "./components/Projects";
+import Testimonials from "./components/Testimonials";
+import News from "./components/News";
+import Pricing from "./components/Pricing";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
-      <h1 class="font-bold text-5xl font-title text-primary">
-        Title - Hello World!
-      </h1>
-      <h3 className="font-subtitle text-3xl font-semibold">
-        Sub Title - Meghal Shah CA
-      </h3>
-      <p className="text-gray">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id in delectus
-        inventore quos maiores numquam eius, at architecto laudantium tempora
-        deserunt corporis eos illo ratione expedita sequi perferendis dolor
-        voluptatem totam consequatur? Labore ex officiis culpa, natus nihil quae
-        adipisci consequatur fuga atque doloribus vel voluptates voluptatum
-        obcaecati autem facere?
-      </p>
-    </>
+    <div className="font-default bg-black text-white min-h-screen">
+      <Header />
+
+      {/* Main Content */}
+      <main>
+        <Hero />
+        <About />
+        <Services />
+        <Projects />
+        <Testimonials />
+        <News />
+        <Pricing />
+        <Contact />
+      </main>
+
+      <Footer />
+    </div>
   );
 }
 
