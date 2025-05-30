@@ -1,5 +1,6 @@
 import React from "react";
 import ContactSection from "../components/ContactSection";
+import AwardsCarousel from "../components/AwardsCarousel";
 
 const AboutPage = () => {
   const coreValues = [
@@ -277,6 +278,24 @@ const AboutPage = () => {
           </div>
         </div>
       </section>
+
+      {/* Awards and Recognition Section */}
+      <section className="py-16 md:py-24 bg-black">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold font-title text-center mb-4">
+            A Legacy of <span className="text-primary">Recognition</span>
+          </h2>
+          <p className="text-gray font-subtitle text-center mb-12 max-w-2xl mx-auto">
+            Our commitment to excellence has been recognized through various
+            awards and accolades
+          </p>
+
+          <AwardsCarousel />
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <ContactSection />
     </div>
   );
 };

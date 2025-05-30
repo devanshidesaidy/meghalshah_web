@@ -4,7 +4,7 @@ const Contact = () => {
   const contactInfo = [
     {
       title: "Office Address",
-      info: "A-308, Titanium City Center, 100ft Anand Nagar Road, Near Indian Oil Petrol Pump, Satellite, Ahmedabad - 380015",
+      info: "A-5, Fifth Floor, Safal Profitaire, Corporate Rd, Prahlad Nagar, Ahmedabad, Gujarat 380015",
       icon: (
         <path
           strokeLinecap="round"
@@ -17,7 +17,7 @@ const Contact = () => {
     },
     {
       title: "Contact Numbers",
-      info: "+91 98250 99453",
+      info: "+91 9824909200",
       icon: (
         <path
           strokeLinecap="round"
@@ -26,7 +26,7 @@ const Contact = () => {
           d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
         />
       ),
-      link: "tel:+919825099453",
+      link: "tel:+919824909200",
     },
     {
       title: "Email Address",
@@ -132,7 +132,7 @@ const Contact = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto rounded-lg overflow-hidden h-[400px]">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.939148068006!2d72.52113147599707!3d23.02754447918045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84c5d473a547%3A0x7f7701c45c7869f1!2sTitanium%20City%20Center!5e0!3m2!1sen!2sin!4v1709906149983!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.38032814099!2d72.5067715!3d23.0098037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9b278e0476f7%3A0x96e3d49fa6c53c37!2sSafal%20Profitaire!5e0!3m2!1sen!2sin!4v1748612955949!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0 }}
