@@ -1,4 +1,4 @@
-import React from "react";
+import BannerImage from "../../public/images/meghal_shah_banner.png";
 
 const About = () => {
   return (
@@ -7,8 +7,12 @@ const About = () => {
         {/* Left Side: Image with "8+ Years Experience" overlay */}
         <div className="md:w-1/2 mb-10 md:mb-0 flex justify-center relative">
           {/* Placeholder for image */}
-          <div className="w-72 h-96 md:w-96 md:h-[500px] bg-gray rounded-lg overflow-hidden shadow-2xl">
-            {/* <img src="/path-to-your-about-image.jpg" alt="About Me" className="w-full h-full object-cover" /> */}
+          <div className="w-72 h-96 md:w-96 md:h-[500px] bg-black rounded-lg overflow-hidden shadow-2xl">
+            <img
+              src={BannerImage}
+              alt="About Me"
+              className="w-full h-full object-cover mix-blend-plus-lighter"
+            />
           </div>
           <div className="absolute bottom-5 right-5 md:bottom-10 md:right-10 bg-primary text-white p-4 md:p-6 rounded-lg shadow-xl text-center">
             <p className="text-3xl md:text-5xl font-bold font-title">20+</p>
