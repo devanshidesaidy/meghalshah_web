@@ -171,7 +171,7 @@ const Hero = () => {
             <div className="w-full h-full flex items-center justify-center">
               {/* <span className="text-white text-4xl font-bold">MS</span> */}
               <img
-                src="/images/DSC00074-2.JPG"
+                src="/images/DSC00218.JPG"
                 alt="CA Meghal Shah"
                 className="w-full h-full object-cover"
               />
