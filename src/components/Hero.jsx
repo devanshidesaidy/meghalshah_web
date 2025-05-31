@@ -171,8 +171,9 @@ const Hero = () => {
             <div className="w-full h-full flex items-center justify-center">
               {/* <span className="text-white text-4xl font-bold">MS</span> */}
               <img
-                src="https://media.istockphoto.com/id/1413766112/photo/successful-mature-businessman-looking-at-camera-with-confidence.jpg?s=612x612&w=0&k=20&c=NJSugBzNuZqb7DJ8ZgLfYKb3qPr2EJMvKZ21Sj5Sfq4="
-                alt=""
+                src="/images/DSC00074-2.JPG"
+                alt="CA Meghal Shah"
+                className="w-full h-full object-cover"
               />
               {/* <img src="../public\images\DSC00218.JPG" alt="" /> */}
               {/* <span className="absolute bottom-4 right-52 text-white text-sm bg-primary/80 px-2 py-1 rounded">
