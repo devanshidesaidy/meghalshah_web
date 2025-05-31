@@ -143,7 +143,7 @@ const Hero = () => {
             WELCOME TO MY WORLD
           </p>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold font-title mb-4 leading-tight">
-            Hi, I'm <span className="text-primary">CA Meghal Shah</span>
+            Hi, I'm <br /> <span className="text-primary">CA Meghal Shah</span>
             <br />
             {/* <span className="text-3xl md:text-5xl lg:text-6xl">
               Financial Advisor & Consultant
