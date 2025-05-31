@@ -103,41 +103,119 @@ const AboutPage = () => {
       {/* Introduction Section */}
       <section className="py-16 md:py-24 bg-black">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold font-title mb-8">Introduction</h2>
-            <div className="space-y-6 text-gray font-subtitle leading-relaxed">
-              <p>
-                I am CA Meghal Shah, a seasoned Chartered Accountant with over
-                two decades of experience in the world of finance. Throughout my
-                career, I have been committed to providing businesses with
-                strategic financial solutions that foster growth, optimize
-                operations, and ensure long-term financial success. My
-                experience spans across diverse industries, enabling me to
-                deliver tailor-made solutions that cater to the unique needs of
-                each client.
-              </p>
-              <p>
-                Having worked with startups, small-medium enterprises (SMEs),
-                and large corporations, I understand the intricacies of
-                financial challenges that businesses face at different stages of
-                growth. Whether it's corporate finance, tax planning, or
-                restructuring debt, my approach combines in-depth analysis with
-                practical strategies that yield real results.
-              </p>
-              <p>
-                My philosophy is rooted in personalized service—I believe that
-                every business is unique and deserves a solution that is crafted
-                specifically for its needs. Over the years, I've built strong
-                relationships with my clients, earning their trust by
-                consistently delivering effective financial strategies and
-                solutions.
-              </p>
-              <p>
-                As I continue to help businesses navigate the complexities of
-                the financial world, my goal remains clear: to empower
-                businesses to achieve financial independence, stability, and
-                growth that lasts.
-              </p>
+          <div className="max-w-6xl mx-auto">
+            <div className="flex flex-col md:flex-row gap-12 items-start">
+              {/* Image Section */}
+              <div className="md:w-1/3 relative flex justify-center">
+                {/* Dot Pattern Background */}
+                <div className="absolute -right-8 -bottom-8 z-0">
+                  <div className="grid grid-cols-7 gap-2">
+                    {[...Array(35)].map((_, i) => (
+                      <div
+                        key={i}
+                        className={`w-1.5 h-1.5 rounded-full bg-primary ${
+                          // Create diamond pattern by hiding some dots
+                          (i < 7 && (i < 2 || i > 4)) ||
+                          (i >= 28 && (i < 30 || i > 32)) ||
+                          (i % 7 === 0 && i !== 14 && i !== 21) ||
+                          (i % 7 === 6 && i !== 20 && i !== 27)
+                            ? "opacity-0"
+                            : "opacity-40"
+                        }`}
+                      />
+                    ))}
+                  </div>
+                </div>
+
+                {/* Vertical Line with Dots */}
+                <div className="absolute -top-12 left-1/2 transform -translate-x-1/2 z-0">
+                  <div className="w-0.5 h-24 bg-primary/40"></div>
+                  <div className="w-2 h-2 rounded-full bg-primary absolute -top-1 left-1/2 transform -translate-x-1/2"></div>
+                  <div className="w-2 h-2 rounded-full bg-primary absolute bottom-0 left-1/2 transform -translate-x-1/2"></div>
+                </div>
+
+                {/* Background decoration */}
+                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] rounded-full bg-primary/20 backdrop-blur-sm"></div>
+
+                {/* Image container */}
+                <div className="w-72 h-96 rounded-2xl overflow-hidden relative z-10 bg-gradient-to-b from-primary to-primary/50 border-4 border-primary p-1 group hover:scale-105 transition-transform duration-300">
+                  <div className="w-full h-full rounded-xl overflow-hidden relative">
+                    {/* Background glow effect */}
+                    <div className="absolute inset-0 bg-primary/20 mix-blend-overlay"></div>
+
+                    {/* Image with hover effect */}
+                    <div className="relative w-full h-full transform transition-transform duration-700 group-hover:scale-110">
+                      <img
+                        src="/images/DSC00074-2.JPG"
+                        alt="CA Meghal Shah"
+                        className="w-full h-full object-cover"
+                      />
+
+                      {/* Subtle overlay */}
+                      <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-primary/20"></div>
+                    </div>
+
+                    {/* Shine effect on hover */}
+                    <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700">
+                      <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/20 to-transparent transform -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Bottom Dots */}
+                <div className="absolute -bottom-8 left-1/2 transform -translate-x-1/2">
+                  <div className="flex space-x-2">
+                    {[...Array(3)].map((_, i) => (
+                      <div
+                        key={i}
+                        className="w-1.5 h-1.5 rounded-full bg-primary opacity-40"
+                      />
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              {/* Text Content */}
+              <div className="md:w-2/3">
+                <h2 className="text-3xl font-bold font-title mb-8">
+                  Introduction
+                </h2>
+                <div className="space-y-6 text-gray font-subtitle leading-relaxed">
+                  <p>
+                    I am CA Meghal Shah, a seasoned Chartered Accountant with
+                    over two decades of experience in the world of finance.
+                    Throughout my career, I have been committed to providing
+                    businesses with strategic financial solutions that foster
+                    growth, optimize operations, and ensure long-term financial
+                    success. My experience spans across diverse industries,
+                    enabling me to deliver tailor-made solutions that cater to
+                    the unique needs of each client.
+                  </p>
+                  <p>
+                    Having worked with startups, small-medium enterprises
+                    (SMEs), and large corporations, I understand the intricacies
+                    of financial challenges that businesses face at different
+                    stages of growth. Whether it's corporate finance, tax
+                    planning, or restructuring debt, my approach combines
+                    in-depth analysis with practical strategies that yield real
+                    results.
+                  </p>
+                  <p>
+                    My philosophy is rooted in personalized service—I believe
+                    that every business is unique and deserves a solution that
+                    is crafted specifically for its needs. Over the years, I've
+                    built strong relationships with my clients, earning their
+                    trust by consistently delivering effective financial
+                    strategies and solutions.
+                  </p>
+                  <p>
+                    As I continue to help businesses navigate the complexities
+                    of the financial world, my goal remains clear: to empower
+                    businesses to achieve financial independence, stability, and
+                    growth that lasts.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
