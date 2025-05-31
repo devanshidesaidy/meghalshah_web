@@ -106,6 +106,7 @@
 // };
 
 // export default Hero;
+
 const SocialIcon = ({ icon }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -129,7 +130,7 @@ const SocialIcon = ({ icon }) => (
 );
 
 const Hero = () => {
-  const randomCA = Math.floor(Math.random() * 100000); // Generate random number for CA
+  // const randomCA = Math.floor(Math.random() * 100000); // Generate random number for CA
 
   const randomCA = Math.floor(Math.random() * 100000); // Generate random number for CA
 
