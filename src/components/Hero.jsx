@@ -170,7 +170,7 @@ const Hero = () => {
           <div className="w-64 h-64 md:w-96 md:h-96 rounded-full overflow-hidden relative z-10 bg-gradient-to-b from-primary to-primary/50 border-4 border-primary">
             <div className="w-full h-full flex items-center justify-center">
               {/* <span className="text-white text-4xl font-bold">MS</span> */}
-              {/* <img src="../public\images\DSC00218.JPG" alt="" /> */}
+              <img src="../public\images\DSC00218.JPG" alt="" />
               {/* <span className="absolute bottom-4 right-52 text-white text-sm bg-primary/80 px-2 py-1 rounded">
                 {randomCA}
               </span> */}
