@@ -165,10 +165,10 @@ const Hero = () => {
         {/* Right Content: Image */}
         <div className="md:w-1/2 flex justify-center md:justify-end relative">
           {/* Background circle decoration */}
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-72 h-72 md:w-[450px] md:h-[450px] rounded-full bg-primary opacity-5"></div>
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-72 h-72 md:w-[550px] md:h-[550px] rounded-full bg-primary opacity-5"></div>
           {/* Profile image container */}
-          <div className="w-64 h-64 md:w-96 md:h-96 rounded-full overflow-hidden relative z-10 bg-gradient-to-b from-primary to-primary/50 border-4 border-primary">
-            <div className="w-full h-full flex items-center justify-center">
+          <div className="w-64 h-64  md:w-[550px] md:h-[550px]  rounded-full overflow-hidden relative z-10 bg-gradient-to-b from-primary to-primary/50 border-4 border-primary">
+            <div className="w-full h-full md:w-[550px] md:h-[550px] flex items-center justify-center">
               {/* <span className="text-white text-4xl font-bold">MS</span> */}
               <img
                 src="/images/DSC00218.JPG"
