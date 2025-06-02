@@ -21,11 +21,12 @@ const ContactSection = () => {
                   info@meghalshah.com
                 </p>
                 <p className="text-gray font-subtitle">
-                  <span className="text-primary">Phone:</span> +91 98765 43210
+                  <span className="text-primary">Phone:</span> +91 9824909200
                 </p>
                 <p className="text-gray font-subtitle">
-                  <span className="text-primary">Address:</span> 123 Business
-                  Hub, Mumbai, India
+                  <span className="text-primary">Address:</span> A-5, Fifth
+                  Floor, Safal Profitaire, Corporate Rd, Prahlad Nagar,
+                  Ahmedabad, Gujarat 380015
                 </p>
               </div>
             </div>
@@ -35,12 +36,12 @@ const ContactSection = () => {
               </h3>
               <div className="space-y-4">
                 <p className="text-gray font-subtitle">
-                  <span className="text-primary">Mon - Fri:</span> 9:00 AM -
-                  6:00 PM
+                  <span className="text-primary">Mon - Fri:</span> 10:00 AM -
+                  7:00 PM
                 </p>
                 <p className="text-gray font-subtitle">
-                  <span className="text-primary">Saturday:</span> 9:00 AM - 2:00
-                  PM
+                  <span className="text-primary">Saturday:</span> 10:00 AM -
+                  7:00 PM
                 </p>
                 <p className="text-gray font-subtitle">
                   <span className="text-primary">Sunday:</span> Closed

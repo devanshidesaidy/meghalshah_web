@@ -101,6 +101,7 @@ const AboutPage = () => {
       </section>
 
       {/* Introduction Section */}
+      {/* Introduction Section */}
       <section className="py-16 md:py-24 bg-black">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
