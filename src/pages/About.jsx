@@ -139,17 +139,27 @@ const AboutPage = () => {
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] rounded-full bg-primary/20 backdrop-blur-sm"></div>
 
                 {/* Image container */}
-                <div className="w-100 h-100 rounded-2xl overflow-hidden relative z-10 bg-gradient-to-b from-primary to-primary/50 border-4 border-primary p-1">
+                <div className="w-72 h-96 rounded-2xl overflow-hidden relative z-10 bg-gradient-to-b from-primary to-primary/50 border-4 border-primary p-1 group hover:scale-105 transition-transform duration-300">
                   <div className="w-full h-full rounded-xl overflow-hidden relative">
-                    <img
-                      src="/images/DSC00074-2.JPG"
-                      alt="CA Meghal Shah"
-                      className="w-full h-full object-cover"
-                    />
-                    {/* <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-primary/80 to-transparent"></div> */}
-                    {/* <span className="absolute bottom-4 right-4 text-white text-sm bg-primary/80 px-3 py-1.5 rounded-full font-medium">
-                      CA {Math.floor(Math.random() * 100000).toString().padStart(5, '0')}
-                    </span> */}
+                    {/* Background glow effect */}
+                    <div className="absolute inset-0 bg-primary/20 mix-blend-overlay"></div>
+
+                    {/* Image with hover effect */}
+                    <div className="relative w-full h-full transform transition-transform duration-700 group-hover:scale-110">
+                      <img
+                        src="/images/DSC00074-2.JPG"
+                        alt="CA Meghal Shah"
+                        className="w-full h-full object-cover"
+                      />
+
+                      {/* Subtle overlay */}
+                      <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-primary/20"></div>
+                    </div>
+
+                    {/* Shine effect on hover */}
+                    <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700">
+                      <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/20 to-transparent transform -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
+                    </div>
                   </div>
                 </div>
 

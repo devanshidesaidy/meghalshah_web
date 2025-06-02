@@ -21,16 +21,14 @@ const SocialIcon = ({ icon }) => (
 );
 
 const Hero = () => {
-  const randomCA = Math.floor(Math.random() * 100000); // Generate random number for CA
-
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center relative pt-20 md:pt-0 bg-black"
+      className="min-h-screen flex items-center justify-center relative pt-5 md:pt-0 bg-black"
     >
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between text-center md:text-left p-4">
         {/* Left Content: Text */}
-        <div className="md:w-1/2 mb-10 md:mb-0 relative z-10">
+        <div className="md:w-1/2 mb-10 md:mb-0 relative z-10 -mt-20">
           <p className="text-primary font-subtitle mb-2 text-sm">
             WELCOME TO MY WORLD
           </p>
