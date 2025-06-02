@@ -136,11 +136,11 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center relative pt-20 md:pt-0 bg-black"
+      className="min-h-screen flex items-center justify-center relative pt-5 md:pt-0 bg-black"
     >
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between text-center md:text-left p-4">
         {/* Left Content: Text */}
-        <div className="md:w-1/2 mb-10 md:mb-0 relative z-10">
+        <div className="md:w-1/2 mb-10 md:mb-0 relative z-10 -mt-20">
           <p className="text-primary font-subtitle mb-2 text-sm">
             WELCOME TO MY WORLD
           </p>
@@ -165,7 +165,7 @@ const Hero = () => {
         </div>
 
         {/* Right Content: Image */}
-        <div className="md:w-1/2 flex justify-center md:justify-end relative">
+        <div className="md:w-1/2 flex justify-center md:justify-end relative ">
           {/* Background circle decoration */}
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-72 h-72 md:w-[550px] md:h-[550px] rounded-full bg-primary opacity-5"></div>
           {/* Profile image container */}
