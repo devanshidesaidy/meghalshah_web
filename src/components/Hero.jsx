@@ -165,7 +165,7 @@ const Hero = () => {
         </div>
 
         {/* Right Content: Image */}
-        <div className="md:w-1/2 flex justify-center md:justify-end relative ">
+        <div className="md:w-1/2 flex justify-center md:justify-end relative">
           {/* Background circle decoration */}
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-72 h-72 md:w-[550px] md:h-[550px] rounded-full bg-primary opacity-5"></div>
           {/* Profile image container */}
