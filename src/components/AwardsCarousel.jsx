@@ -171,10 +171,6 @@
 // };
 
 // export default AwardsCarousel;
-<<<<<<< HEAD
-
-=======
->>>>>>> main
 import React, { useState, useEffect, useCallback } from "react";
 
 const awards = [
