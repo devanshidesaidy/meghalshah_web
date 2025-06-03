@@ -113,7 +113,7 @@ const Hero = () => {
       </div> */}
       <div className="absolute bottom-20 left-1/2 transform -translate-x-1/2 flex flex-row space-x-8 md:flex">
         <a
-          href="https://facebook.com"
+          href="https://www.facebook.com/p/MSACA-61560472070432"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray hover:text-primary transition-colors duration-300"
@@ -121,7 +121,7 @@ const Hero = () => {
           <SocialIcon icon="facebook" />
         </a>
         <a
-          href="https://twitter.com"
+          href="https://x.com/MeghalShah19?t=togJqWjNqgkmKvzAKB9A9g&s=09"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray hover:text-primary transition-colors duration-300"
@@ -129,7 +129,7 @@ const Hero = () => {
           <SocialIcon icon="twitter" />
         </a>
         <a
-          href="https://instagram.com"
+          href="https://www.instagram.com/msaca_2011"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray hover:text-primary transition-colors duration-300"
@@ -137,7 +137,7 @@ const Hero = () => {
           <SocialIcon icon="instagram" />
         </a>
         <a
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/ca-meghal-shah-finance-expert-25a5bb3b"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray hover:text-primary transition-colors duration-300"
