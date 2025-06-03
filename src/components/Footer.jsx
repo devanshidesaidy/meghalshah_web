@@ -27,22 +27,22 @@ const Footer = () => {
     {
       name: "Facebook",
       icon: "facebook",
-      url: "https://facebook.com",
+      url: "https://www.facebook.com/p/MSACA-61560472070432",
     },
     {
       name: "Instagram",
       icon: "instagram",
-      url: "https://instagram.com",
+      url: "https://www.instagram.com/msaca_2011",
     },
     {
       name: "LinkedIn",
       icon: "linkedin",
-      url: "https://linkedin.com",
+      url: "https://www.linkedin.com/in/ca-meghal-shah-finance-expert-25a5bb3b",
     },
     {
       name: "Twitter",
       icon: "twitter",
-      url: "https://twitter.com",
+      url: "https://x.com/MeghalShah19?t=togJqWjNqgkmKvzAKB9A9g&s=09",
     },
   ];
 

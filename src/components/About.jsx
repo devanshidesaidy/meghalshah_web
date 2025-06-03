@@ -48,16 +48,18 @@ const About = () => {
           </p>
           <div className="flex flex-col sm:flex-row justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-8 mb-8">
             <div>
-              <p className="text-4xl font-bold text-primary font-title">250+</p>
+              <p className="text-4xl font-bold text-primary font-title">275+</p>
               <p className="text-gray font-subtitle">Projects Completed</p>
             </div>
             <div>
-              <p className="text-4xl font-bold text-primary font-title">12+</p>
-              <p className="text-gray font-subtitle">Awards Win</p>
+              <p className="text-4xl font-bold text-primary font-title">
+                1000 Cr.
+              </p>
+              <p className="text-gray font-subtitle">Funded More then INR</p>
             </div>
             <div>
-              <p className="text-4xl font-bold text-primary font-title">98%</p>
-              <p className="text-gray font-subtitle">Success Rate</p>
+              <p className="text-4xl font-bold text-primary font-title">20+</p>
+              <p className="text-gray font-subtitle">Experience Professional</p>
             </div>
           </div>
           {/* <button className="bg-primary text-white font-subtitle px-8 py-3 rounded-md hover:bg-opacity-80 transition-colors duration-300">
